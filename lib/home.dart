@@ -68,7 +68,7 @@ class _HomeScreenState extends State<HomeScreen> {
               child: Row( mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
                   Image.asset("images/prime.png",width: 50,height: 50,),
-                  SizedBox(width: 5,
+                  SizedBox(width: 20,height: 55,
                     child: Padding(
                       padding: const EdgeInsets.only(left: 5),
                       child: SwitchListTile(
